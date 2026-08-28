@@ -5,7 +5,7 @@ import { WebSocketServer } from 'ws';
 const PORT = 3001;
 
 const server = http.createServer((req, res) => {
-  fs.readFile('./public/index.html', (err, data) => {
+  fs.readFile('./public/iญndex.html', (err, data) => {
     if (err) {
       res.writeHead(500, { 'Content-Type': 'text/plain' });
       res.end('Server Error');
